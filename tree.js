@@ -2,24 +2,29 @@ var treeData = [
     {
       "name": "Top Level",
       "parent": "null",
+      "color":"#ff0000",
       "children": [
         {
           "name": "Level 2: A",
           "parent": "Top Level",
+          "color":"#00ff00",
           "children": [
             {
               "name": "Son of A",
-              "parent": "Level 2: A"
+              "parent": "Level 2: A",
+              "color":"#0000ff",
             },
             {
               "name": "Daughter of A",
-              "parent": "Level 2: A"
+              "parent": "Level 2: A",
+              "color":"#0000ff",
             }
           ]
         },
         {
           "name": "Level 2: B",
-          "parent": "Top Level"
+          "parent": "Top Level",
+          "color":"#00ff00",
         }
       ]
     }
@@ -76,7 +81,7 @@ var treeData = [
   
     nodeEnter.append("circle")
         .attr("r", 1e-6)
-        .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+        .style("fill", function(d) { return d.color });
   
     nodeEnter.append("text")
         .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
@@ -92,7 +97,7 @@ var treeData = [
   
     nodeUpdate.select("circle")
         .attr("r", 10)
-        .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+        .style("fill", function(d) { return d.color });
   
     nodeUpdate.select("text")
         .style("fill-opacity", 1);
@@ -119,7 +124,7 @@ var treeData = [
         .attr("d", function(d) {
           var o = {x: source.x0, y: source.y0};
           return diagonal({source: o, target: o});
-        });
+        }).style("stroke", function(d) { return d.source.color });
   
     // Transition links to their new position.
     link.transition()
