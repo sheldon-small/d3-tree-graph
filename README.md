@@ -1,4 +1,5 @@
 D3 tree Heirarchy graph html component.
+
 Color classification using the [javascript-color-gradient](https://github.com/Adrinlol/javascript-color-gradient) package.
 
 ## Usage
