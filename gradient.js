@@ -2,7 +2,6 @@ class Gradient {
     constructor(gradients = '', maxNum = 10, intervals = [], colors = ['', '']) {
 
         const setColors = props => {
-            // props = [col1,col2]
             if (props.length < 2) {
                 throw new Error(`setGradient should have more than ${props.length} color`);
             } else {
@@ -121,29 +120,3 @@ class GradientColor {
         }
     }
 }
-
-
-
-// document.addEventListener("DOMContentLoaded", function (event) {
-//     const colorGradient = new Gradient();
-
-//     const color1 = "#ff0000";
-//     const color2 = "#ffeb3b";
-//     const color3 = "#0aff00";
-//     const color4 = "#2196f3";
-//     colorGradient.setMidpoint(20);
-//     colorGradient.setGradient(color1, color2, color3);
-//     console.log(colorGradient.getArray());
-//     const colorArr = colorGradient.getArray();
-
-//     const docFrag = document.createDocumentFragment();
-//     for (let i = 0; i < colorArr.length; i++) {
-//         const color = colorArr[i];
-//         const elem = document.createElement('input');
-//         elem.type = 'button';
-//         elem.className  = 'button';
-//         elem.style.backgroundColor = color;
-//         docFrag.appendChild(elem);
-//     }
-//     document.getElementsByClassName('App')[0].appendChild(docFrag);
-// });
