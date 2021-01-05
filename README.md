@@ -5,6 +5,9 @@ Color classification using the [javascript-color-gradient](https://github.com/Ad
 ## Usage
 
 Clone or download repo
+
 npm install
+
 npm install -g nodemon
+
 open cli in project folder and run:  npm run app
