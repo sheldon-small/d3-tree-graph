@@ -1,10 +1,10 @@
-# D3 tree Heirarchy graph html component.
+# D3 tree Hierarchy graph html component.
 
 Color classification using code from the [javascript-color-gradient](https://github.com/Adrinlol/javascript-color-gradient) package.
 
 ## 📺 Demo 
 - View on deskstop for interactive experience. Not yet optimized for mobile.
-- [D3 tree Heirarchy graph  Demo](https://saspect-io.github.io/d3-tree-graph/)
+- [D3 tree Hierarchy graph  Demo](https://saspect-io.github.io/d3-tree-graph/)
 
 
 ## 📷 Demo Scene SnapShot
