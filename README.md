@@ -8,7 +8,8 @@ Color classification using code from the [javascript-color-gradient](https://git
 
 
 ## 📷 Demo Scene SnapShot
-- ![image](https://user-images.githubusercontent.com/29488727/129455039-94b7f842-fe4f-43b5-ad7f-082c3a639ec8.png)
+- ![image](https://github.com/Saspect-IO/d3-tree-graph/assets/29488727/69dec53b-be9c-4cbb-93a8-2de5966a2f8e)
+
 
 ## Dev Usage
 - Clone or download repo
