@@ -4,7 +4,7 @@ Color classification using code from the [javascript-color-gradient](https://git
 
 ## 📺 Demo 
 - View on deskstop for interactive experience. Not yet optimized for mobile.
-- [D3 tree Hierarchy graph  Demo](https://saspect-io.github.io/d3-tree-graph/)
+- [D3 tree Hierarchy graph  Demo](https://sheldon-small.github.io/d3-tree-graph/)
 
 
 ## 📷 Demo Scene SnapShot
